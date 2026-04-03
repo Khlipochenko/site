@@ -38,10 +38,10 @@ const insurances= [{icon:<MdDirectionsCar />, name: "ОСАГО", description:"�
   return (
     <>
     <div className='grid grid-cols-[4fr_1fr]'>
-    <div className=' flex flex-col p-4  bg-[#0D4F7A] '>
+    <div className=' flex flex-col p-2 md:p-4  bg-[#0D4F7A] '>
      <div className='flex  gap-2 text-[#E87722] items-center'> <span><FaShield /></span>< h2 className='uppercase tracking-wider font-medium md:text-2xl '>  Офис страхования </h2></div>
-    <h1 className='tracking-wider font-bold text-white text-lg'>г. Себеж</h1>
-    <p className='italic text-white/80 '>Надежная защита для вас и вашего имущества</p>
+    <h1 className='tracking-wider font-bold text-white  md:text-lg'>г. Себеж</h1>
+    <p className='italic text-white/80 text-sm md:text-base '>Надежная защита для вас и вашего имущества</p>
     </div>
 <div className='bg-[#E87722] flex flex-col items-center justify-center gap-1 px-2 '>
   <span className='text-white text-2xl'><MdOutlineWatchLater /></span>
@@ -70,15 +70,15 @@ const insurances= [{icon:<MdDirectionsCar />, name: "ОСАГО", description:"�
      д. Затурье, ул. Загородная, д. 1Б</p>
   </div>
   <div className='flex gap-2 items-center'>
-    <span className='text-[#0D4F7A] '><FaPhoneAlt /></span>
-    <a href="tel:89118870227" className='font-medium text-[#0D4F7A]'> 8-911-887-02-27</a>
+    <span className=' text-[#E87722] '><FaPhoneAlt /></span>
+    <a href="tel:89118870227" className='font-medium  text-[#E87722]'> 8-911-887-02-27</a>
 
   </div>
 
 
   <div className='flex gap-2 items-center '>
-    <span className='text-[#0D4F7A] text-xl'><MdOutlineEmail /></span>
-    <a  href="mailto:sebezh.ofis.1414@mail.ru" className='font-medium text-[#0D4F7A]'> sebezh.ofis.1414@mail.ru</a>
+    <span className=' text-[#E87722] text-xl'><MdOutlineEmail /></span>
+    <a  href="mailto:sebezh.ofis.1414@mail.ru" className='font-medium  text-[#E87722]'> sebezh.ofis.1414@mail.ru</a>
 
   </div>
 
