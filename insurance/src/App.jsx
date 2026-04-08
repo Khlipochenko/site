@@ -143,14 +143,15 @@ const insurances= [{icon:<MdDirectionsCar />, name: "ОСАГО", description:"�
   
  <h2 className='pt-6  tracking-wide font-bold text-3xl text-[#0D4F7A] uppercase'>Как нас найти</h2>  
  <span className="inline-block w-full h-0.5 bg-[#E87722] mt-2 mb-6"></span>
- <div className='flex justify-end pb-6'><RouteButton></RouteButton></div>
- <iframe
+ <div className='flex justify-center md:justify-end pb-6'><RouteButton></RouteButton></div>
+ <div className=' flex justify-center bg-amber-200 w-3/4 md:w-full m-auto'>
+ <iframe className='h-75 md:h-125'
         src="https://yandex.ru/map-widget/v1/?ll=28.489890%2C56.288776&z=17&pt=28.489890,56.288776,pm2rdm"
         width="100%"
-        height="500"
+        
         frameBorder="0"
         allowFullScreen={true}
-      ></iframe>
+      ></iframe></div>
     </div>  </div>
   {/* FOOTER */}
   <footer className='bg-[#E87722] p-6 min-w-screen'>
