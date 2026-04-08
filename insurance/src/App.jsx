@@ -11,6 +11,7 @@ import office from "./assets/office.png";
 import './App.css'
 import { Insurances } from './components/Insurances';
 import { HiOutlineCheck } from "react-icons/hi";
+import { RouteButton } from './components/RouteButton';
 import { 
   MdDirectionsCar,   // 🚗 ОСАГО
   MdSecurity,        // 🛡 КАСКО
@@ -109,7 +110,7 @@ const insurances= [{icon:<MdDirectionsCar />, name: "ОСАГО", description:"�
   </div>
 <div className='bg-[#E3F2FD] flex items-center flex-col p-4 pt-6  gap-2  '>
 <span className='text-2xl text-[#E87722]'> <MdCable /></span>
-<h3  className='font-bold tracking-wide md:text-xl text-center text-center'>Оптоволокно</h3>
+<h3  className='font-bold tracking-wide md:text-xl text-center '>Оптоволокно</h3>
 <p className='text-center'>Высокоскоростной интернет в офисе — оформляем полисы быстро и без задержек.</p></div>
 
 
@@ -135,7 +136,22 @@ const insurances= [{icon:<MdDirectionsCar />, name: "ОСАГО", description:"�
     <li className='flex gap-1 items-center'> <HiOutlineCheck /> <span> Помощь при страховом случае</span></li>
     <li className='flex gap-1 items-center'> <HiOutlineCheck /> <span> Оптоволокно — быстрое оформление</span></li>
   </ul>
-  </div> </div></div>
+  </div> </div>
+
+   {/* Как нас найти */}
+  <div className=' p-5 mb-6 ' >
+  
+ <h2 className='pt-6  tracking-wide font-bold text-3xl text-[#0D4F7A] uppercase'>Как нас найти</h2>  
+ <span className="inline-block w-full h-0.5 bg-[#E87722] mt-2 mb-6"></span>
+ <div className='flex justify-end pb-6'><RouteButton></RouteButton></div>
+ <iframe
+        src="https://yandex.ru/map-widget/v1/?ll=28.489890%2C56.288776&z=17&pt=28.489890,56.288776,pm2rdm"
+        width="100%"
+        height="500"
+        frameBorder="0"
+        allowFullScreen={true}
+      ></iframe>
+    </div>  </div>
   {/* FOOTER */}
   <footer className='bg-[#E87722] p-6 min-w-screen'>
     <div className=' text-center '>

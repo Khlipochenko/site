@@ -12,7 +12,6 @@ export const Insurances=({items})=>{
         </div>
     
     ))}
-  
-    
+ 
     </>)
 }
