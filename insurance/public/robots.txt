@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://strahovanie-sebezh.vercel.app/sitemap.xml
